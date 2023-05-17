@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family:Fontelink;
+    src: url(../Font/soloist1.ttf);
+}
+@font-face {
+    font-family: Fontsw;
+    src: url(../Font/soloist3d.ttf);
+}
+@font-face {
+    font-family: Fontsw2;
+    src: url(../Font/soloistout.ttf);
+}
+a{
+    font-size: 20px;
+    font-family:Fontelink;
+    color: red;
+    list-style-type:none;
+    text-decoration:none;
+}
+h1{
+    padding: 15px;
+    color: yellow;
+    font-size: 15px;
+    font-weight:bolder;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+h2{
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: Fontsw;
+    font:bolder ;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+h3{
+    padding: 2.5%;
+    color: yellow;
+    font-size: 15px;
+    font-weight:bolder;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+h4{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    width:50%;
+    float: right;
+    margin-right:350px;
+    margin-top: 20px;
+}
+p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-image:url(../image/backgroundbody.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    border: 2px solid black;
+}
+#cabecalho{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#centro{
+    padding-top: 20px;
+    height: 100%;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+li{
+    padding: 15px;
+    color: yellow;
+    font-size: 15px;
+    font-family: Fontelink;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#caixadireita{
+    background-color:black;
+}
+#caixacentro{
+    background-color:black;
+}
+#caixaesquerda{
+    background-color: black;
+}
+#rodape{
+    height: 110px;
+    background-color: black;
+}
+.box{
+    width: 20%;
+    height: 100%;
+    border: 2px solid red;
+}
+.box2{
+    width: 40%;
+    height: 100%;
+    border: 1px solid red;
+}
+.box3{
+    width: 90%;
+    height: 100%;
+    border: 1px solid red;
+}
+.box2 li{
+    color: white;
+}
+.box2 a{
+    padding: 2.5%;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight:bolder;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 1px red;
+}
+.box2 a:hover{
+    color: #1F51FF;
+ }
